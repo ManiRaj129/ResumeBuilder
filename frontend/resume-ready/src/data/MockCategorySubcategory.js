@@ -1,0 +1,275 @@
+export const MockCategorySubcategory = [
+	{
+		"id": "1",
+		"category": "Personal Details",
+		"subcategory": [
+			{
+				"id": "PD-FN-1",
+				"name": "First Name",
+				"type": "text",
+			},
+			{
+				"id": "PD-LN-2",
+				"name": "Last Name",
+				"type": "text"
+			},
+			{
+				"id": "PD-EM-3",
+				"name": "Email",
+				"type": "email"
+			},
+			{
+				"id": "PD-PN-4",
+				"name": "Phone Number",
+				"type": "text"
+			},
+			{
+				"id": "PD-AD-5",
+				"name": "Address",
+				"type": "textarea"
+			},
+			{
+				"id": "PD-LI-6",
+				"name": "LinkedIn",
+				"type": "url"
+			},
+			{
+				"id": "PD-WE-7",
+				"name": "Website",
+				"type": "url"
+			}
+		]
+	},
+	{
+		"id": "2",
+		"category": "Education",
+		"subcategory": [
+		  {
+			"id": "ED-SN-1",
+			"name": "School Name",
+			"type": "text"
+		  },
+		  {
+			"id": "ED-DE-2",
+			"name": "Degree",
+			"type": "text"
+		  },
+		  {
+			"id": "ED-FS-3",
+			"name": "Field of Study",
+			"type": "text"
+		  },
+		  {
+			"id": "ED-SD-4",
+			"name": "Start Date",
+			"type": "date"
+		  },
+		  {
+			"id": "ED-ED-5",
+			"name": "End Date",
+			"type": "date"
+		  },
+		  {
+			"id": "ED-GP-6",
+			"name": "Grade/GPA",
+			"type": "text"
+		  },
+		  {
+			"id": "ED-LO-7",
+			"name": "Location",
+			"type": "text"
+		  }
+		]
+	},
+	{
+		"id": "3",
+		"category": "Work Experience",
+		"subcategory": [
+		  {
+			"id": "WE-JT-1",
+			"name": "Role or Job Title",
+			"type": "text"
+		  },
+		  {
+			"id": "WE-CN-2",
+			"name": "Company Name",
+			"type": "text"
+		  },
+		  {
+			"id": "WE-LO-3",
+			"name": "Location",
+			"type": "text"
+		  },
+		  {
+			"id": "WE-SD-4",
+			"name": "Start Date",
+			"type": "date"
+		  },
+		  {
+			"id": "WE-ED-5",
+			"name": "End Date",
+			"type": "date"
+		  },
+		  {
+			"id": "WE-DS-6",
+			"name": "Description",
+			"type": "textarea"
+		  }
+		]
+	},
+	{
+		"id": "4",
+		"category": "Skills",
+		"subcategory": [
+		  {
+			"id": "SK-TS-1",
+			"name": "Technical Skills",
+			"type": "textarea"
+		  },
+		  {
+			"id": "SK-SS-2",
+			"name": "Soft Skills",
+			"type": "textarea"
+		  },
+		  {
+			"id": "SK-LA-3",
+			"name": "Languages",
+			"type": "textarea"
+		  },
+		  {
+			"id": "SK-TT-4",
+			"name": "Tools & Technologies",
+			"type": "textarea"
+		  }
+		]
+	},
+	{
+		"id": "5",
+		"category": "Projects",
+		"subcategory": [
+		  {
+			"id": "PR-NM-1",
+			"name": "Project Name",
+			"type": "text"
+		  },
+		  {
+			"id": "PR-DS-2",
+			"name": "Description",
+			"type": "textarea"
+		  },
+		  {
+			"id": "PR-TU-3",
+			"name": "Technologies Used",
+			"type": "textarea"
+		  },
+		  {
+			"id": "PR-SD-4",
+			"name": "Start Date",
+			"type": "date"
+		  },
+		  {
+			"id": "PR-ED-5",
+			"name": "End Date",
+			"type": "date"
+		  },
+		  {
+			"id": "PR-LK-6",
+			"name": "Project Link",
+			"type": "url"
+		  }
+		]
+	},
+	{
+		"id": "6",
+		"category": "Certifications",
+		"subcategory": [
+		  {
+			"id": "CE-NM-1",
+			"name": "Certification Name",
+			"type": "text"
+		  },
+		  {
+			"id": "CE-OR-2",
+			"name": "Issuing Organization",
+			"type": "text"
+		  },
+		  {
+			"id": "CE-ID-3",
+			"name": "Issue Date",
+			"type": "date"
+		  },
+		  {
+			"id": "CE-ED-4",
+			"name": "Expiration Date",
+			"type": "date"
+		  },
+		  {
+			"id": "CE-CI-5",
+			"name": "Credential ID",
+			"type": "text"
+		  },
+		  {
+			"id": "CE-CU-6",
+			"name": "Credential URL",
+			"type": "url"
+		  }
+		]
+	},
+	{
+		"id": "7",
+		"category": "Awards & Honors",
+		"subcategory": [
+		  {
+			"id": "AH-TI-1",
+			"name": "Title",
+			"type": "text"
+		  },
+		  {
+			"id": "AH-OR-2",
+			"name": "Organization",
+			"type": "text"
+		  },
+		  {
+			"id": "AH-DR-3",
+			"name": "Date Received",
+			"type": "date"
+		  },
+		  {
+			"id": "AH-DE-4",
+			"name": "Description",
+			"type": "textarea"
+		  }
+		]
+	},
+	{
+		"id": "8",
+		"category": "Leadership & Involvement",
+		"subcategory": [
+		  {
+			"id": "LI-RO-1",
+			"name": "Role",
+			"type": "text"
+		  },
+		  {
+			"id": "LI-OR-2",
+			"name": "Organization",
+			"type": "text"
+		  },
+		  {
+			"id": "LI-SD-3",
+			"name": "Start Date",
+			"type": "date"
+		  },
+		  {
+			"id": "LI-ED-4",
+			"name": "End Date",
+			"type": "date"
+		  },
+		  {
+			"id": "LI-DE-5",
+			"name": "Description",
+			"type": "textarea"
+		  }
+		]
+	}
+]
